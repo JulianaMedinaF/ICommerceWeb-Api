@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "message": "Test 1",
+        "number": 23,
+        "animal": "Dog"
+    },
+    {
+        "id": 2,
+        "message": "Test 2",
+        "number": 6,
+        "animal": "Narwal"
+    },
+    {
+        "id": 3,
+        "message": "Test 3",
+        "number": 78,
+        "animal": "Cat"
+    }
+]
