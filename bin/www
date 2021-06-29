@@ -1,9 +1,0 @@
-#!/usr/bin/env node
-const app = require('../app');
-
-//Server Port
-const hostname = 'localhost';
-const SERVER_PORT = 3000;
-
-app.listen(SERVER_PORT, () => console.log(`Server running at ${hostname}:${SERVER_PORT}`));
-  
