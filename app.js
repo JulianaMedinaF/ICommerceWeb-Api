@@ -1,11 +1,13 @@
 const fs = require('fs');
 const express = require('express');
-const index = require("./routes/index");
-const test = require("./routes/test");
-const product = require("./routes/product");
+const cors = require("cors");
+const index = require("./src/routes/index");
+const test = require("./src/routes/test");
+const product = require("./src/routes/product");
 const app = express();
 
 app.use(express.json());
+app.use(cors());
 app.use("/", index);
 app.use("/test", test);
 app.use("/product", product);

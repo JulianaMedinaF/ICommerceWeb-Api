@@ -1,13 +1,5 @@
 #!/usr/bin/env node
 const app = require('../app');
-const cors = require("cors");
-
-var corsOptions = {
-    frontEnd: "http://localhost:3000"
-  };
-
-app.use(cors(corsOptions));
-
 
 //Server Port
 const SERVER_PORT = 8080;
